@@ -115,3 +115,5 @@ def change(match):
 
 for _ in range(int(input())):
     print(re.sub(r"(?<= )(\|\||&&)(?= )", change, input()))
+   
+# for any query refer this: https://docs.python.org/3/library/re.html
